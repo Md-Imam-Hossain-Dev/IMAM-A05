@@ -1,4 +1,4 @@
-import type { Technology } from "../types/echnology";
+import type { Technology } from "../types/technology";
 
 interface StackSidebarProps {
   stack: Technology[];
