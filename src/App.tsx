@@ -7,7 +7,7 @@ import "react-toastify/dist/ReactToastify.css";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import TechnologyGrid from "./components/TechnologyGrid";
-import StackSidebar from "./components/stacksidebar";
+import StackSidebar from "./components/Stacksidebar";
 import Footer from "./components/Footer";
 
 import type { Technology } from "./types/technology";
