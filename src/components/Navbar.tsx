@@ -19,13 +19,14 @@ function Navbar() {
           ☰
         </button>
 
-        {/* Logo */}
+       
         <a
-          href="#home"
+          href="logo"
           className="flex items-center gap-2"
         >
           <div className="gradient-bg flex h-10 w-10 items-center justify-center rounded-xl text-lg font-bold text-white">
-            D
+            
+            <img src="./public/logo-text.png" alt="" />
           </div>
 
           <span className="hidden text-xl font-bold sm:block">
@@ -36,6 +37,7 @@ function Navbar() {
         </a>
 
         {/* Desktop navigation */}
+        
         <div className="hidden items-center gap-8 md:flex">
 
           <a
