@@ -1,32 +1,12 @@
-# React + TypeScript + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+Project Name: Dev Stack
+This project is mainly shows which software is popular and faster than ay other development and shows rating.
+i used react technology
+frst feature is i used react toastify then second one is used sticky navbar and the last one is  used grid.
+1.jsx is a syntax that write html code inside js
+2.in props data pass parent to child and on the other hand data pass inside the component
+3.usestate mainly use for entry data and update data.in my project i use selected stack data.
+4.use effect is a side effect of react.i used it to load the json data.
+5..map is used for create multiple elements(array).unique key helps to find each element in the list
+6.conditional rendering means  showing different depending on a condition. example {isLoading && <p>Loading..
+</p>}
+7.i will use props for pass data parent to child. child called the parent fucntion for back to the parent data.
