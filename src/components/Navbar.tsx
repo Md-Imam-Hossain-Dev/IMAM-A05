@@ -24,14 +24,12 @@ function Navbar() {
           href="logo"
           className="flex items-center gap-2"
         >
-          <div className="gradient-bg flex h-10 w-10 items-center justify-center rounded-xl text-lg font-bold text-white">
-            
-            <img src="./public/logo-text.png" alt="" />
-          </div>
+      
 
           <span className="hidden text-xl font-bold sm:block">
             <span className="gradient-text">
-              Dev Stack
+             <img src="/logo-text.png" alt="dev" className="h-10 w-auto" />
+          
             </span>
           </span>
         </a>
