@@ -62,7 +62,7 @@ function Hero() {
             <div className="relative overflow-hidden rounded-3xl bg-slate-900 p-4 shadow-2xl">
 
               <img
-                src="./public/banner-stack.png"
+                src="/banner-stack.png"
                 alt="Developer workspace"
                 className="min-h-[350px] w-full rounded-2xl object-cover"
               />
